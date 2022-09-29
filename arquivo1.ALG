@@ -1,18 +1,18 @@
-Algoritmo "semnome"
+Algoritmo "calculo de mÃ©dia"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : calculei a mÃ©dia de notas do aluno, se foi aprovado sim ou nÃ£o.
+// Autor(a)    : TaynÃ¡ alves
 // Data atual  : 29/09/2022
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 v1:real
 v2:real
 v3:real
 v4:real
 media:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, e
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, e
 escreval("digite a primeira variavel")
 leia(v1)
 escreval("digite a segunda variavel")
@@ -24,13 +24,13 @@ leia(v4)
 escreval((v1+v2+v3+v4)/4)
 media<-((v1+v2+v3+v4)/4)
 escreval(media/4)
-escreval(" a nota do aluno é",(media))
+escreval(" a nota do aluno Ã©",(media))
  se media >= 6 entao
 escreval("aprovado")
 senao
 escreval("reprovado")
 se media=10
-escreval("parabéns")
+escreval("parabÃ©ns")
 senao
 escreval ("reprovado")
 fimse
